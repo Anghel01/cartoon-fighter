@@ -122,12 +122,12 @@ TextureImporter:
       name: Player-Idle-24x24_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 23
-        width: 15
-        height: 20
+        x: 0
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -144,12 +144,12 @@ TextureImporter:
       name: Player-Idle-24x24_1
       rect:
         serializedVersion: 2
-        x: 28
-        y: 23
-        width: 15
-        height: 20
+        x: 24
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -166,12 +166,12 @@ TextureImporter:
       name: Player-Idle-24x24_2
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
-        width: 15
-        height: 18
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -188,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bab2c601fd7741b43ac7611a1ad43a40
     internalID: 0
     vertices: []
     indices: 
@@ -196,7 +196,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":24.0,"y":24.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Player-Idle-24x24_0: 5225009143214304317
       Player-Idle-24x24_1: -6809459809399113254

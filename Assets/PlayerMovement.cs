@@ -20,6 +20,15 @@ public class playerMovement : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
+
+        if (moveX > 0) // si el jugador se mueve hacia la derecha (moveX es mayor que 0), se establece la escala local del jugador a (5, 5, 1) para que mire hacia la derecha
+        {
+            transform.localScale = new Vector3(5, 5, 1);
+        }
+        else if (moveX < 0) // si el jugador se mueve hacia la izquierda (moveX es menor que 0), se establece la escala local del jugador a (-5, 5, 1) para que mire hacia la izquierda
+        {
+            transform.localScale = new Vector3(-5, 5, 1);
+        }
     }
     void OnCollisionEnter2D(Collision2D col)
     {
